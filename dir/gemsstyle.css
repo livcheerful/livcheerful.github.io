@@ -14,6 +14,7 @@ header .row{
 
 nav{
 	justify-content: flex-end;
+	text-align: center;
 }
 
 nav a{
@@ -25,11 +26,43 @@ nav a{
 .jumbotron{
 	display: flex;
 	align-items: center;
-	height:500px;
+	height:200px;
 	background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/06/triangles-colored-art-pattern-gradiant-abtract-background-wallpaper.jpg);
 }	
 
-div h2{
+.jumbotron h2{
 	font-size:40px;
+	text-align: center;
 	padding: 20px 0;
+	color: white;
+}
+
+.textarea{
+	margin: 30px 60px 0 0;
+	line-height: 8;
+}
+
+.camps{
+	margin: 30px 0 0 60px;
+}
+
+li{
+	width:20%;
+	list-style-type: none;
+	font-size:24px;
+	font-weight: 500;
+	padding: 10px;
+	margin: 0 0 40px 0;
+	border-style: solid;
+}
+
+.descriptions{
+	display: none;
+}
+
+.hover{
+	border-style:dashed;
+	border-color:white;
+	color: white;
+	background-color: slateblue;
 }
