@@ -1,0 +1,35 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+header{
+	padding: 20px 0;
+}
+
+header .row{
+	align-items: center;
+	display: flex;
+}
+
+nav{
+	justify-content: flex-end;
+}
+
+nav a{
+	padding: 0 30px;
+	margin: 0;
+	display: inline;
+}
+
+.jumbotron{
+	/*display: flex;*/
+	align-items: center;
+	height:500px; 
+	background-image: url(comics-header.jpg);
+}	
+
+div h2{
+	font-size:40px;
+	padding: 20px 0;
+}
